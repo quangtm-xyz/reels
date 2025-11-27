@@ -9,6 +9,7 @@ var localizationSection = builder.Configuration.GetSection("Localization");
 var localizationSettings = localizationSection.Get<LocalizationSettings>() ?? new LocalizationSettings();
 
 // Add services to the container.
+//Added
 builder.Services.AddRazorPages()
     .AddViewLocalization();
 builder.Services.AddControllers();
