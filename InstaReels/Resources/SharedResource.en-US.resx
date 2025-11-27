@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Reels Downloader</value>
+  </data>
+  <data name="ContactForAdvertising" xml:space="preserve">
+    <value>Contact for Advertising</value>
+  </data>
+  <data name="LanguageEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LanguageVietnamese" xml:space="preserve">
+    <value>Vietnamese</value>
+  </data>
+  <data name="LanguageIndonesian" xml:space="preserve">
+    <value>Indonesian</value>
+  </data>
+  <data name="LanguageBengali" xml:space="preserve">
+    <value>Bengali</value>
+  </data>
+  <data name="LanguageArabic" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="DownloadButton" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="IntroText" xml:space="preserve">
+    <value>This is a tool that allows you to download reels and videos from Instagram - free and no water mark.</value>
+  </data>
+  <data name="DescriptionTitle" xml:space="preserve">
+    <value>About Reels Downloader</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>Reels Downloader lets you download Instagram reels and videos in high quality, watermark-free, completely free.
+Just paste the link → hit Download → your video is processed instantly, safely, with no data stored.
+Supports all Instagram content types and works on any device.</value>
+  </data>
+  <data name="FAQTitle" xml:space="preserve">
+    <value>Frequently Asked Questions</value>
+  </data>
+  <data name="FAQ1Question" xml:space="preserve">
+    <value>How to Download video Tiktok no watermark?</value>
+  </data>
+  <data name="FAQ1Answer" xml:space="preserve">
+    <value>To download TikTok videos without watermark, simply paste the video URL into our downloader tool and click the download button. Our service automatically removes watermarks from downloaded content.</value>
+  </data>
+  <data name="FAQ2Question" xml:space="preserve">
+    <value>How to get the TikTok video download link?</value>
+  </data>
+  <data name="FAQ2Answer" xml:space="preserve">
+    <value>Copy the video link from TikTok by clicking the share button on any video, then paste it into our downloader to get the direct download link.</value>
+  </data>
+  <data name="FAQ3Question" xml:space="preserve">
+    <value>Where are TikTok videos saved after being downloaded?</value>
+  </data>
+  <data name="FAQ3Answer" xml:space="preserve">
+    <value>Downloaded videos are saved to your device's default download folder. On mobile devices, they typically go to your gallery or downloads folder.</value>
+  </data>
+  <data name="FAQ4Question" xml:space="preserve">
+    <value>Does SnapTik.App store downloaded videos or keep a copy of videos?</value>
+  </data>
+  <data name="FAQ4Answer" xml:space="preserve">
+    <value>No, we do not store or keep copies of any downloaded videos. All processing is done in real-time and videos are only saved to your device.</value>
+  </data>
+  <data name="FAQ5Question" xml:space="preserve">
+    <value>Do I need to install instructions or extensions?</value>
+  </data>
+  <data name="FAQ5Answer" xml:space="preserve">
+    <value>No installation or browser extensions are required. Our tool works directly in your web browser without any additional software.</value>
+  </data>
+  <data name="FAQ6Question" xml:space="preserve">
+    <value>Do I have to pay to Tiktok Downloader without watermark (Snaptik)?</value>
+  </data>
+  <data name="FAQ6Answer" xml:space="preserve">
+    <value>No, our service is completely free to use. You can download unlimited videos without watermarks at no cost.</value>
+  </data>
+  <data name="FAQ7Question" xml:space="preserve">
+    <value>Can I use this Tiktok video downloader on my Android phone?</value>
+  </data>
+  <data name="FAQ7Answer" xml:space="preserve">
+    <value>Yes, our downloader is fully compatible with Android devices. Simply access our website through your mobile browser and use it just like on desktop.</value>
+  </data>
+  <data name="FAQ8Question" xml:space="preserve">
+    <value>How do I save tiktok video /download my favorite Tik Tok mp4 videos to my iPhone (IOS)?</value>
+  </data>
+  <data name="FAQ8Answer" xml:space="preserve">
+    <value>On iPhone, paste the TikTok video link into our downloader, click download, and the video will be saved to your Photos app automatically.</value>
+  </data>
+  <data name="FAQ9Question" xml:space="preserve">
+    <value>Is there a limit to download Tiktok videos at SnapTik?</value>
+  </data>
+  <data name="FAQ9Answer" xml:space="preserve">
+    <value>No, there are no limits on the number of videos you can download. Use our service as much as you need, completely free.</value>
+  </data>
+  <data name="FAQ10Question" xml:space="preserve">
+    <value>Does Snaptik support downloading multiple videos / Download all videos from a certain tiktok</value>
+  </data>
+  <data name="FAQ10Answer" xml:space="preserve">
+    <value>Currently, our tool supports downloading individual videos. For multiple videos, you'll need to download them one at a time by pasting each video link separately.</value>
+  </data>
+  <data name="FAQ11Question" xml:space="preserve">
+    <value>Can I download high resolution TikTok videos at SnapTik?</value>
+  </data>
+  <data name="FAQ11Answer" xml:space="preserve">
+    <value>Yes, our downloader supports high-resolution video downloads. The quality depends on the original video quality available from the source.</value>
+  </data>
+  <data name="FAQ12Question" xml:space="preserve">
+    <value>Can I edit TikTok videos downloaded at SnapTik?</value>
+  </data>
+  <data name="FAQ12Answer" xml:space="preserve">
+    <value>Once downloaded, you can edit the videos using any video editing software on your device, as they are saved as standard MP4 files.</value>
+  </data>
+  <data name="FAQ13Question" xml:space="preserve">
+    <value>Does SnapTik provide tiktok mp3 download solution?</value>
+  </data>
+  <data name="FAQ13Answer" xml:space="preserve">
+    <value>Currently, our service focuses on video downloads. For MP3 extraction, you may need to use additional audio extraction tools after downloading the video.</value>
+  </data>
+  <data name="FooterContact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="FooterLegal" xml:space="preserve">
+    <value>Legal</value>
+  </data>
+  <data name="FooterTerms" xml:space="preserve">
+    <value>Terms</value>
+  </data>
+  <data name="FooterPrivacyPolicy" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="FooterTools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="InputPlaceholder" xml:space="preserve">
+    <value>Paste Instagram link here...</value>
+  </data>
+  <data name="ProcessingMessage" xml:space="preserve">
+    <value>Processing link... Please wait.</value>
+  </data>
+  <data name="DownloadStartingMessage" xml:space="preserve">
+    <value>Download starting...</value>
+  </data>
+  <data name="IntroDescription" xml:space="preserve">
+    <value>Reels Downloader is a simple yet powerful tool that lets you download high-quality, watermark-free Instagram reels and videos for free.
+Just paste the link and click Download—your video is ready in seconds, processed securely without storing any personal data.
+It supports all Instagram content types and works smoothly on all devices.</value>
+  </data>
+  <data name="ContactLink" xml:space="preserve">
+    <value>Contact for Advertising</value>
+  </data>
+  <data name="InvalidLinkError" xml:space="preserve">
+    <value>The Instagram link is invalid or the video is private.</value>
+  </data>
+  <data name="GeneralDownloadError" xml:space="preserve">
+    <value>An error occurred while processing your request. Please try again later.</value>
+  </data>
+</root>
+

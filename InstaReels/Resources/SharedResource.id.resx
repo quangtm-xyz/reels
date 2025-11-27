@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Pengunduh Reels Instagram</value>
+  </data>
+  <data name="ContactForAdvertising" xml:space="preserve">
+    <value>Hubungi untuk Iklan</value>
+  </data>
+  <data name="LanguageEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LanguageVietnamese" xml:space="preserve">
+    <value>Tiếng Việt</value>
+  </data>
+  <data name="LanguageIndonesian" xml:space="preserve">
+    <value>Bahasa Indonesia</value>
+  </data>
+  <data name="LanguageBengali" xml:space="preserve">
+    <value>বাংলা</value>
+  </data>
+  <data name="LanguageArabic" xml:space="preserve">
+    <value>العربية</value>
+  </data>
+  <data name="DownloadButton" xml:space="preserve">
+    <value>Unduh</value>
+  </data>
+  <data name="IntroText" xml:space="preserve">
+    <value>Alat ini membantu Anda mengunduh Reels dan video Instagram secara gratis tanpa watermark.</value>
+  </data>
+  <data name="DescriptionTitle" xml:space="preserve">
+    <value>Tentang Reels Downloader</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>Reels Downloader memudahkan Anda mengunduh Reels dan video Instagram berkualitas tinggi tanpa watermark dan gratis. Cukup tempel link, tekan Unduh, dan video siap dalam hitungan detik. Mendukung semua jenis konten dan perangkat.</value>
+  </data>
+  <data name="FAQTitle" xml:space="preserve">
+    <value>Pertanyaan yang Sering Diajukan</value>
+  </data>
+  <data name="FAQ1Question" xml:space="preserve">
+    <value>Bagaimana cara mengunduh video TikTok tanpa watermark?</value>
+  </data>
+  <data name="FAQ1Answer" xml:space="preserve">
+    <value>Tempel URL video ke alat kami dan tekan tombol Unduh. Sistem akan otomatis menghapus watermark dari video.</value>
+  </data>
+  <data name="FAQ2Question" xml:space="preserve">
+    <value>Bagaimana cara mendapatkan tautan unduhan video TikTok?</value>
+  </data>
+  <data name="FAQ2Answer" xml:space="preserve">
+    <value>Ketuk tombol Bagikan di TikTok untuk menyalin tautan video, lalu tempel di alat kami untuk menerima tautan unduhan langsung.</value>
+  </data>
+  <data name="FAQ3Question" xml:space="preserve">
+    <value>Video TikTok yang diunduh disimpan di mana?</value>
+  </data>
+  <data name="FAQ3Answer" xml:space="preserve">
+    <value>Video akan disimpan di folder unduhan bawaan perangkat, atau galeri maupun folder Downloads pada ponsel.</value>
+  </data>
+  <data name="FAQ4Question" xml:space="preserve">
+    <value>Apakah SnapTik.App menyimpan atau menyalin video yang saya unduh?</value>
+  </data>
+  <data name="FAQ4Answer" xml:space="preserve">
+    <value>Tidak. Semua proses berlangsung secara real-time dan file hanya tersimpan di perangkat Anda.</value>
+  </data>
+  <data name="FAQ5Question" xml:space="preserve">
+    <value>Apakah saya perlu memasang aplikasi atau ekstensi?</value>
+  </data>
+  <data name="FAQ5Answer" xml:space="preserve">
+    <value>Tidak perlu instalasi tambahan. Alat ini berjalan langsung di peramban Anda.</value>
+  </data>
+  <data name="FAQ6Question" xml:space="preserve">
+    <value>Apakah harus membayar untuk menggunakan pengunduh TikTok tanpa watermark?</value>
+  </data>
+  <data name="FAQ6Answer" xml:space="preserve">
+    <value>Tidak, layanan kami sepenuhnya gratis dan tanpa batas jumlah unduhan.</value>
+  </data>
+  <data name="FAQ7Question" xml:space="preserve">
+    <value>Bisakah alat ini digunakan di ponsel Android?</value>
+  </data>
+  <data name="FAQ7Answer" xml:space="preserve">
+    <value>Ya. Buka situs kami lewat peramban seluler dan gunakan seperti di desktop.</value>
+  </data>
+  <data name="FAQ8Question" xml:space="preserve">
+    <value>Bagaimana cara menyimpan video TikTok ke iPhone (iOS)?</value>
+  </data>
+  <data name="FAQ8Answer" xml:space="preserve">
+    <value>Tempel tautan TikTok ke alat kami, tekan Unduh, dan video akan tersimpan otomatis di aplikasi Photos.</value>
+  </data>
+  <data name="FAQ9Question" xml:space="preserve">
+    <value>Apakah ada batas jumlah video TikTok yang bisa diunduh?</value>
+  </data>
+  <data name="FAQ9Answer" xml:space="preserve">
+    <value>Tidak ada batas. Gunakan layanan ini sesering yang Anda butuhkan secara gratis.</value>
+  </data>
+  <data name="FAQ10Question" xml:space="preserve">
+    <value>Apakah pengunduh mendukung menyimpan banyak video sekaligus?</value>
+  </data>
+  <data name="FAQ10Answer" xml:space="preserve">
+    <value>Saat ini alat hanya mendukung unduhan satu per satu dengan menempelkan setiap tautan secara terpisah.</value>
+  </data>
+  <data name="FAQ11Question" xml:space="preserve">
+    <value>Bisakah saya mengunduh video TikTok beresolusi tinggi?</value>
+  </data>
+  <data name="FAQ11Answer" xml:space="preserve">
+    <value>Bisa. Kualitas bergantung pada kualitas video asli yang tersedia.</value>
+  </data>
+  <data name="FAQ12Question" xml:space="preserve">
+    <value>Bisakah saya mengedit video TikTok setelah diunduh?</value>
+  </data>
+  <data name="FAQ12Answer" xml:space="preserve">
+    <value>Tentu. File MP4 standar bisa diedit dengan perangkat lunak pengedit video apa pun.</value>
+  </data>
+  <data name="FAQ13Question" xml:space="preserve">
+    <value>Apakah pengunduh ini menyediakan opsi mengambil MP3 dari TikTok?</value>
+  </data>
+  <data name="FAQ13Answer" xml:space="preserve">
+    <value>Saat ini layanan berfokus pada unduhan video. Untuk mengekstrak audio, gunakan alat tambahan setelah mengunduh.</value>
+  </data>
+  <data name="FooterContact" xml:space="preserve">
+    <value>Kontak</value>
+  </data>
+  <data name="FooterLegal" xml:space="preserve">
+    <value>Legal</value>
+  </data>
+  <data name="FooterTerms" xml:space="preserve">
+    <value>Ketentuan</value>
+  </data>
+  <data name="FooterPrivacyPolicy" xml:space="preserve">
+    <value>Kebijakan Privasi</value>
+  </data>
+  <data name="FooterTools" xml:space="preserve">
+    <value>Alat</value>
+  </data>
+  <data name="InputPlaceholder" xml:space="preserve">
+    <value>Tempel tautan Instagram di sini...</value>
+  </data>
+  <data name="ProcessingMessage" xml:space="preserve">
+    <value>Sedang memproses tautan... Mohon tunggu.</value>
+  </data>
+  <data name="DownloadStartingMessage" xml:space="preserve">
+    <value>Unduhan sedang dimulai...</value>
+  </data>
+  <data name="IntroDescription" xml:space="preserve">
+    <value>Alat ini membantu Anda mengunduh Reels dan video Instagram secara gratis tanpa watermark.</value>
+  </data>
+  <data name="ContactLink" xml:space="preserve">
+    <value>Hubungi untuk Iklan</value>
+  </data>
+  <data name="InvalidLinkError" xml:space="preserve">
+    <value>Tautan Instagram tidak valid atau videonya bersifat privat.</value>
+  </data>
+  <data name="GeneralDownloadError" xml:space="preserve">
+    <value>Terjadi kesalahan saat memproses permintaan Anda. Silakan coba lagi nanti.</value>
+  </data>
+</root>
+
+

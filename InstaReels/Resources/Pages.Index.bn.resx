@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App.Title" xml:space="preserve">
+    <value>ইনস্টাগ্রাম রিলস ডাউনলোডার</value>
+  </data>
+  <data name="UI.Contact" xml:space="preserve">
+    <value>বিজ্ঞাপনের জন্য যোগাযোগ করুন</value>
+  </data>
+  <data name="UI.Input.Placeholder" xml:space="preserve">
+    <value>এখানে ইনস্টাগ্রাম লিঙ্ক পেস্ট করুন...</value>
+  </data>
+  <data name="UI.Download" xml:space="preserve">
+    <value>ডাউনলোড</value>
+  </data>
+  <data name="UI.Intro" xml:space="preserve">
+    <value>এই টুলটি আপনাকে ইনস্টাগ্রাম থেকে রিলস ও ভিডিও ডাউনলোড করতে সাহায্য করে - সম্পূর্ণ ফ্রি এবং কোনো ওয়াটারমার্ক নেই।</value>
+  </data>
+  <data name="Description.Title" xml:space="preserve">
+    <value>Reels Downloader সম্পর্কে</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Reels Downloader একটি সহজ কিন্তু শক্তিশালী টুল যা আপনাকে ওয়াটারমার্ক ছাড়া উচ্চমানের ইনস্টাগ্রাম রিলস ও ভিডিও সম্পূর্ণ বিনামূল্যে ডাউনলোড করতে দেয়।
+শুধু লিঙ্ক পেস্ট করে ডাউনলোড চাপুন—ভিডিও কয়েক সেকেন্ডেই প্রস্তুত হয় এবং কোনো ব্যক্তিগত তথ্য সংরক্ষণ করা হয় না।
+এটি Reels, IGTV ও সাধারণ পোস্টসহ সব ধরনের কনটেন্ট সাপোর্ট করে এবং সব ডিভাইসে কাজ করে।</value>
+  </data>
+  <data name="FAQ.Title" xml:space="preserve">
+    <value>সাধারণ জিজ্ঞাসা</value>
+  </data>
+  <data name="Footer.Contact" xml:space="preserve">
+    <value>যোগাযোগ</value>
+  </data>
+  <data name="Footer.Legal" xml:space="preserve">
+    <value>আইনি</value>
+  </data>
+  <data name="Footer.Terms" xml:space="preserve">
+    <value>শর্তাবলি</value>
+  </data>
+  <data name="Footer.Privacy" xml:space="preserve">
+    <value>গোপনীয়তা নীতি</value>
+  </data>
+  <data name="Footer.Tools" xml:space="preserve">
+    <value>সরঞ্জাম</value>
+  </data>
+  <data name="Error.General" xml:space="preserve">
+    <value>আপনার অনুরোধ প্রক্রিয়াকরণের সময় একটি ত্রুটি হয়েছে। পরে আবার চেষ্টা করুন।</value>
+  </data>
+  <data name="Error.InvalidLink" xml:space="preserve">
+    <value>ইনস্টাগ্রাম লিঙ্কটি অবৈধ অথবা ভিডিওটি প্রাইভেট।</value>
+  </data>
+  <data name="Status.Processing" xml:space="preserve">
+    <value>লিঙ্ক প্রসেস করা হচ্ছে... অনুগ্রহ করে অপেক্ষা করুন।</value>
+  </data>
+  <data name="Lang.English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Lang.Vietnamese" xml:space="preserve">
+    <value>Tiếng Việt</value>
+  </data>
+  <data name="Lang.Indonesian" xml:space="preserve">
+    <value>Bahasa Indonesia</value>
+  </data>
+  <data name="Lang.Bengali" xml:space="preserve">
+    <value>বাংলা</value>
+  </data>
+  <data name="Lang.Arabic" xml:space="preserve">
+    <value>العربية</value>
+  </data>
+  <data name="FAQ.1.Question" xml:space="preserve">
+    <value>কীভাবে ওয়াটারমার্ক ছাড়া টিকটক ভিডিও ডাউনলোড করব?</value>
+  </data>
+  <data name="FAQ.1.Answer" xml:space="preserve">
+    <value>ভিডিওর URL কপি করে আমাদের টুলে পেস্ট করুন এবং ডাউনলোড বাটন চাপুন। সিস্টেম নিজেই ওয়াটারমার্ক সরিয়ে দেয়।</value>
+  </data>
+  <data name="FAQ.2.Question" xml:space="preserve">
+    <value>টিকটক ভিডিওর ডাউনলোড লিঙ্ক কীভাবে পাওয়া যায়?</value>
+  </data>
+  <data name="FAQ.2.Answer" xml:space="preserve">
+    <value>টিকটকের শেয়ার বাটন থেকে ভিডিওর লিঙ্ক কপি করে আমাদের ডাউনলোডারে পেস্ট করুন, সঙ্গে সঙ্গে সরাসরি লিঙ্ক পাবেন।</value>
+  </data>
+  <data name="FAQ.3.Question" xml:space="preserve">
+    <value>ডাউনলোড করা ভিডিওগুলো কোথায় সেভ হয়?</value>
+  </data>
+  <data name="FAQ.3.Answer" xml:space="preserve">
+    <value>ভিডিও আপনার ডিভাইসের ডিফল্ট ডাউনলোড ফোল্ডারে সেভ হয়; মোবাইলে সাধারণত গ্যালারি বা ডাউনলোডস ফোল্ডারে থাকে।</value>
+  </data>
+  <data name="FAQ.4.Question" xml:space="preserve">
+    <value>SnapTik.App কি ডাউনলোড করা ভিডিও সংরক্ষণ করে?</value>
+  </data>
+  <data name="FAQ.4.Answer" xml:space="preserve">
+    <value>না। সবকিছু রিয়েল-টাইমে প্রক্রিয়াকৃত হয় এবং ভিডিও শুধু আপনার ডিভাইসেই থাকে।</value>
+  </data>
+  <data name="FAQ.5.Question" xml:space="preserve">
+    <value>কি কোনো অ্যাপ অথবা ব্রাউজার এক্সটেনশন ইনস্টল করতে হবে?</value>
+  </data>
+  <data name="FAQ.5.Answer" xml:space="preserve">
+    <value>না, কোনো অতিরিক্ত ইনস্টলেশন প্রয়োজন নেই। টুলটি সরাসরি ব্রাউজারেই কাজ করে।</value>
+  </data>
+  <data name="FAQ.6.Question" xml:space="preserve">
+    <value>ওয়াটারমার্ক ছাড়া টিকটক ডাউনলোডার ব্যবহার করতে কি টাকা লাগে?</value>
+  </data>
+  <data name="FAQ.6.Answer" xml:space="preserve">
+    <value>না, আমাদের সেবা সম্পূর্ণ ফ্রি এবং অসীম সংখ্যক ভিডিও ডাউনলোড করতে পারবেন।</value>
+  </data>
+  <data name="FAQ.7.Question" xml:space="preserve">
+    <value>এই টিকটক ডাউনলোডার কি অ্যান্ড্রয়েডে ব্যবহার করা যায়?</value>
+  </data>
+  <data name="FAQ.7.Answer" xml:space="preserve">
+    <value>হ্যাঁ, মোবাইল ব্রাউজার দিয়ে ওয়েবসাইট খুললেই ডেস্কটপের মত ব্যবহার করতে পারবেন।</value>
+  </data>
+  <data name="FAQ.8.Question" xml:space="preserve">
+    <value>iPhone (iOS) এ টিকটক ভিডিও কীভাবে সেভ করব?</value>
+  </data>
+  <data name="FAQ.8.Answer" xml:space="preserve">
+    <value>টিকটক লিঙ্ক কপি করে টুলে পেস্ট করুন, ডাউনলোড চাপুন এবং ভিডিও স্বয়ংক্রিয়ভাবে Photos অ্যাপে সেভ হবে।</value>
+  </data>
+  <data name="FAQ.9.Question" xml:space="preserve">
+    <value>SnapTik থেকে ভিডিও ডাউনলোডে কি কোনো সীমা আছে?</value>
+  </data>
+  <data name="FAQ.9.Answer" xml:space="preserve">
+    <value>কোনো সীমা নেই। ইচ্ছেমত যতবার খুশি ফ্রি ডাউনলোড করুন।</value>
+  </data>
+  <data name="FAQ.10.Question" xml:space="preserve">
+    <value>একসাথে কি অনেকগুলো ভিডিও ডাউনলোড করা যায়?</value>
+  </data>
+  <data name="FAQ.10.Answer" xml:space="preserve">
+    <value>বর্তমানে একবারে একটি ভিডিওই ডাউনলোড করা যায়; প্রতিটি লিঙ্ক আলাদাভাবে পেস্ট করতে হবে।</value>
+  </data>
+  <data name="FAQ.11.Question" xml:space="preserve">
+    <value>উচ্চ রেজোলিউশনের টিকটক ভিডিও ডাউনলোড করা যাবে?</value>
+  </data>
+  <data name="FAQ.11.Answer" xml:space="preserve">
+    <value>জি, ভিডিওর গুণগত মান সোর্স ভিডিওর মানের উপর নির্ভর করে।</value>
+  </data>
+  <data name="FAQ.12.Question" xml:space="preserve">
+    <value>ডাউনলোডের পর কি ভিডিও সম্পাদনা করা সম্ভব?</value>
+  </data>
+  <data name="FAQ.12.Answer" xml:space="preserve">
+    <value>অবশ্যই। ফাইলটি স্ট্যান্ডার্ড MP4 হওয়ায় যেকোনো ভিডিও এডিটর দিয়ে সম্পাদনা করা যায়।</value>
+  </data>
+  <data name="FAQ.13.Question" xml:space="preserve">
+    <value>এই টুল কি টিকটক থেকে MP3 ডাউনলোডের ব্যবস্থা দেয়?</value>
+  </data>
+  <data name="FAQ.13.Answer" xml:space="preserve">
+    <value>এই মুহূর্তে আমরা শুধু ভিডিও ডাউনলোডে ফোকাস করি। অডিও আলাদা করতে চাইলে অতিরিক্ত টুল ব্যবহার করুন।</value>
+  </data>
+</root>
+
+

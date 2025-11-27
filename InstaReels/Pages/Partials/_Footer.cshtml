@@ -1,0 +1,34 @@
+@model IndexViewModel
+
+<footer class="w-[95%] md:w-[80%] mx-auto px-4 py-8 border-t border-gray-200 mt-12">
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div>
+            <h3 class="text-lg font-bold text-black mb-4">@Model.FooterContact</h3>
+            <ul class="space-y-2">
+                <li>
+                    <a href="#" class="text-black hover:text-blue-600 transition-colors">@Model.ContactLinkText</a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-lg font-bold text-black mb-4">@Model.FooterLegal</h3>
+            <ul class="space-y-2">
+                <li><a href="#" class="text-black hover:text-blue-600 transition-colors">@Model.FooterTerms</a></li>
+                <li><a href="#" class="text-black hover:text-blue-600 transition-colors">@Model.FooterPrivacy</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-lg font-bold text-black mb-4">@Model.FooterTools</h3>
+            <ul class="space-y-2">
+                <li>
+                    <a href="#" class="text-black hover:text-blue-600 transition-colors">@Model.AppTitle</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+

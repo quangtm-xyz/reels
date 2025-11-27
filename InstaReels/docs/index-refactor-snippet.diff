@@ -1,0 +1,49 @@
+diff --snippet a/Pages/Index.cshtml b/Pages/Index.cshtml
+@@
+-@inject IViewLocalizer Localizer
+-<div class="min-h-screen bg-white">
+-    <nav class="w-full bg-white border-b border-gray-200">
+-        ...
+-        <a href="#" class="px-4 py-2 text-black hover:text-blue-600">@Localizer["ContactForAdvertising"]</a>
+-    </nav>
+-    <script>
+-        const generalDownloadError = '@Html.Raw(Localizer["GeneralDownloadError"].Value.Replace("'", "\\'"))';
+-        ...
+-    </script>
++@using System.Text.Json
++<div id="index-page"
++     class="min-h-screen bg-white"
++     data-download-endpoint="/api/download/reels"
++     data-localized='@Html.Raw(localizedPayload)'>
++    <partial name="Partials/_Header" model="Model.ViewModel"/>
++    <partial name="Partials/_Footer" model="Model.ViewModel"/>
++@section Scripts
++{
++    <script src="~/js/index.js" asp-append-version="true"></script>
++}
+
+diff --snippet a/Pages/Index.cshtml.cs b/Pages/Index.cshtml.cs
+@@
+-    private readonly IStringLocalizer<SharedResource> _localizer;
+-    public List<CultureInfo> SupportedCultures { get; set; } = new() { ... };
++    private readonly IStringLocalizer _localizer;
++    private readonly LocalizationSettings _localizationSettings;
++    private static readonly Dictionary<string, string> LanguageResourceKeyMap = new() { ... };
++    public IndexViewModel ViewModel { get; private set; } = new();
++    private void PopulateCopy() { ... }
++    private void PopulateFaqs() { ... }
+
+diff --snippet a/wwwroot/js/index.js b/wwwroot/js/index.js
+@@
+-// inline script removed
++(() => {
++    const pageRoot = document.getElementById('index-page');
++    ...
++    const handleDownload = async () => {
++        const response = await fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ url }) });
++        ...
++    };
++})();
+
+
+

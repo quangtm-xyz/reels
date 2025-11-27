@@ -1,0 +1,104 @@
+@model IndexViewModel
+
+@{
+    var currentLanguageName = Model.CurrentLanguageDisplayName;
+}
+
+<div class="relative inline-block text-left" data-language-dropdown>
+    <button type="button"
+            class="flex items-center gap-1 rounded-lg border border-gray-300 px-4 py-2 text-black hover:bg-gray-50 focus-visible:outline-blue-500"
+            data-language-trigger>
+        <span>@currentLanguageName</span>
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+        </svg>
+    </button>
+    <div class="pointer-events-none invisible absolute right-0 z-50 mt-2 w-48 rounded-lg border border-gray-200 bg-white opacity-0 shadow-lg transition duration-150"
+         data-language-menu>
+        @foreach (var culture in Model.Languages)
+        {
+            <a href="?culture=@culture.Name"
+               class="block px-4 py-2 text-sm text-black hover:bg-gray-100 @(culture.Name.Equals(Model.CurrentLanguage, StringComparison.OrdinalIgnoreCase) ? "bg-gray-50 font-semibold" : string.Empty)">
+                @culture.DisplayName
+            </a>
+        }
+    </div>
+</div>
+
+<script>
+    (function () {
+        if (window.__languageDropdownInitialized) {
+            return;
+        }
+        window.__languageDropdownInitialized = true;
+
+        const DROPDOWN_SELECTOR = '[data-language-dropdown]';
+        const TRIGGER_SELECTOR = '[data-language-trigger]';
+        const MENU_SELECTOR = '[data-language-menu]';
+
+        document.querySelectorAll(DROPDOWN_SELECTOR).forEach((dropdown) => {
+            const trigger = dropdown.querySelector(TRIGGER_SELECTOR);
+            const menu = dropdown.querySelector(MENU_SELECTOR);
+            if (!trigger || !menu) {
+                return;
+            }
+
+            let hideTimeout;
+            let isOpen = false;
+
+            const applyState = (open) => {
+                isOpen = open;
+                if (open) {
+                    menu.classList.remove('opacity-0', 'invisible', 'pointer-events-none');
+                    menu.classList.add('opacity-100');
+                } else {
+                    menu.classList.add('opacity-0', 'invisible', 'pointer-events-none');
+                    menu.classList.remove('opacity-100');
+                }
+            };
+
+            const openMenu = () => {
+                clearTimeout(hideTimeout);
+                applyState(true);
+            };
+
+            const closeMenu = (immediate = false) => {
+                clearTimeout(hideTimeout);
+                const performClose = () => applyState(false);
+                if (immediate) {
+                    performClose();
+                } else {
+                    hideTimeout = window.setTimeout(performClose, 120);
+                }
+            };
+
+            dropdown.addEventListener('pointerenter', openMenu);
+            dropdown.addEventListener('pointerleave', () => closeMenu(false));
+
+            trigger.addEventListener('click', (event) => {
+                event.preventDefault();
+                if (isOpen) {
+                    closeMenu(true);
+                } else {
+                    openMenu();
+                }
+            });
+
+            trigger.addEventListener('touchstart', (event) => {
+                event.preventDefault();
+                if (isOpen) {
+                    closeMenu(true);
+                } else {
+                    openMenu();
+                }
+            }, { passive: false });
+
+            document.addEventListener('click', (event) => {
+                if (!dropdown.contains(event.target)) {
+                    closeMenu(true);
+                }
+            });
+        });
+    })();
+</script>
+

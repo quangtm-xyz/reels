@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>أداة تنزيل ريلز إنستغرام</value>
+  </data>
+  <data name="ContactForAdvertising" xml:space="preserve">
+    <value>للتواصل للإعلانات</value>
+  </data>
+  <data name="LanguageEnglish" xml:space="preserve">
+    <value>الإنجليزية</value>
+  </data>
+  <data name="LanguageVietnamese" xml:space="preserve">
+    <value>الفيتنامية</value>
+  </data>
+  <data name="LanguageIndonesian" xml:space="preserve">
+    <value>الإندونيسية</value>
+  </data>
+  <data name="LanguageBengali" xml:space="preserve">
+    <value>البنغالية</value>
+  </data>
+  <data name="LanguageArabic" xml:space="preserve">
+    <value>العربية</value>
+  </data>
+  <data name="DownloadButton" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="IntroText" xml:space="preserve">
+    <value>تتيح لك هذه الأداة تنزيل ريلز وفيديوهات إنستغرام مجانًا ومن دون علامة مائية.</value>
+  </data>
+  <data name="DescriptionTitle" xml:space="preserve">
+    <value>حول Reels Downloader</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>إليك النسخة المختصرة في 3 أسطر مع الحفاظ على اللغة العربية:
+
+Reels Downloader أداة بسيطة وقوية تتيح لك تنزيل ريلز وفيديوهات إنستغرام بجودة عالية وبدون علامة مائية مجانًا.
+ما عليك إلا لصق الرابط والضغط على زر التحميل ليصبح الفيديو جاهزًا فورًا، مع معالجة آمنة دون تخزين أي بيانات.
+يدعم جميع أنواع محتوى إنستغرام ويعمل بسلاسة على كل الأجهزة.</value>
+  </data>
+  <data name="FAQTitle" xml:space="preserve">
+    <value>الأسئلة الشائعة</value>
+  </data>
+  <data name="FAQ1Question" xml:space="preserve">
+    <value>كيف أحمل فيديوهات تيك توك بدون علامة مائية؟</value>
+  </data>
+  <data name="FAQ1Answer" xml:space="preserve">
+    <value>انسخ رابط الفيديو وضعه في أداتنا ثم اضغط زر التحميل، وسيتم إزالة العلامة المائية تلقائيًا.</value>
+  </data>
+  <data name="FAQ2Question" xml:space="preserve">
+    <value>كيف أحصل على رابط تنزيل فيديو تيك توك؟</value>
+  </data>
+  <data name="FAQ2Answer" xml:space="preserve">
+    <value>اضغط زر المشاركة في تيك توك وانسخ رابط الفيديو، ثم الصقه في أداة التنزيل لتحصل على رابط مباشر.</value>
+  </data>
+  <data name="FAQ3Question" xml:space="preserve">
+    <value>أين تُحفظ فيديوهات تيك توك بعد تنزيلها؟</value>
+  </data>
+  <data name="FAQ3Answer" xml:space="preserve">
+    <value>تُحفظ الفيديوهات في مجلد التنزيلات الافتراضي على جهازك، أو في المعرض أو مجلد التحميلات على الهواتف.</value>
+  </data>
+  <data name="FAQ4Question" xml:space="preserve">
+    <value>هل يحتفظ SnapTik.App بنسخة من الفيديوهات التي أنزلها؟</value>
+  </data>
+  <data name="FAQ4Answer" xml:space="preserve">
+    <value>لا، تتم كل العمليات لحظيًا ويتم حفظ الملف فقط على جهازك.</value>
+  </data>
+  <data name="FAQ5Question" xml:space="preserve">
+    <value>هل أحتاج إلى تثبيت تطبيق أو إضافة متصفح؟</value>
+  </data>
+  <data name="FAQ5Answer" xml:space="preserve">
+    <value>لا حاجة لأي تثبيت إضافي؛ تعمل الأداة مباشرة داخل المتصفح.</value>
+  </data>
+  <data name="FAQ6Question" xml:space="preserve">
+    <value>هل يجب أن أدفع مقابل استخدام أداة تنزيل تيك توك بلا علامة مائية؟</value>
+  </data>
+  <data name="FAQ6Answer" xml:space="preserve">
+    <value>الخدمة مجانية تمامًا ولا توجد أي قيود على عدد التنزيلات.</value>
+  </data>
+  <data name="FAQ7Question" xml:space="preserve">
+    <value>هل يمكنني استخدام أداة التنزيل هذه على هاتف أندرويد؟</value>
+  </data>
+  <data name="FAQ7Answer" xml:space="preserve">
+    <value>نعم، افتح موقعنا عبر متصفح الهاتف واستعمله كما تفعل على الحاسوب.</value>
+  </data>
+  <data name="FAQ8Question" xml:space="preserve">
+    <value>كيف أحفظ فيديوهات تيك توك على آيفون (iOS)؟</value>
+  </data>
+  <data name="FAQ8Answer" xml:space="preserve">
+    <value>الصق رابط تيك توك في أداتنا، اضغط تحميل، وسيُحفظ الفيديو تلقائيًا داخل تطبيق الصور.</value>
+  </data>
+  <data name="FAQ9Question" xml:space="preserve">
+    <value>هل توجد حدود لعدد فيديوهات تيك توك التي يمكن تنزيلها؟</value>
+  </data>
+  <data name="FAQ9Answer" xml:space="preserve">
+    <value>لا توجد أي حدود؛ يمكنك التنزيل قدر ما تشاء مجانًا.</value>
+  </data>
+  <data name="FAQ10Question" xml:space="preserve">
+    <value>هل يدعم المُنزِّل تنزيل عدة فيديوهات دفعة واحدة؟</value>
+  </data>
+  <data name="FAQ10Answer" xml:space="preserve">
+    <value>في الوقت الحالي ندعم تنزيل فيديو واحد في كل مرة عبر لصق كل رابط على حدة.</value>
+  </data>
+  <data name="FAQ11Question" xml:space="preserve">
+    <value>هل أستطيع تنزيل فيديوهات تيك توك بدقة عالية؟</value>
+  </data>
+  <data name="FAQ11Answer" xml:space="preserve">
+    <value>نعم، ويتوقف مستوى الجودة على جودة الفيديو الأصلي المتاحة.</value>
+  </data>
+  <data name="FAQ12Question" xml:space="preserve">
+    <value>هل أستطيع تعديل فيديوهات تيك توك بعد تنزيلها؟</value>
+  </data>
+  <data name="FAQ12Answer" xml:space="preserve">
+    <value>بالتأكيد، فملفات MP4 القياسية يمكن تحريرها بأي برنامج مونتاج.</value>
+  </data>
+  <data name="FAQ13Question" xml:space="preserve">
+    <value>هل توفر الأداة حلاً لاستخراج MP3 من تيك توك؟</value>
+  </data>
+  <data name="FAQ13Answer" xml:space="preserve">
+    <value>نركّز حاليًا على تنزيل الفيديوهات فقط، ويمكنك استخدام أدوات أخرى لاستخراج الصوت بعد التنزيل.</value>
+  </data>
+  <data name="FooterContact" xml:space="preserve">
+    <value>تواصل</value>
+  </data>
+  <data name="FooterLegal" xml:space="preserve">
+    <value>قانوني</value>
+  </data>
+  <data name="FooterTerms" xml:space="preserve">
+    <value>الشروط</value>
+  </data>
+  <data name="FooterPrivacyPolicy" xml:space="preserve">
+    <value>سياسة الخصوصية</value>
+  </data>
+  <data name="FooterTools" xml:space="preserve">
+    <value>الأدوات</value>
+  </data>
+  <data name="InputPlaceholder" xml:space="preserve">
+    <value>ألصِق رابط إنستغرام هنا...</value>
+  </data>
+  <data name="ProcessingMessage" xml:space="preserve">
+    <value>جارٍ معالجة الرابط... يرجى الانتظار.</value>
+  </data>
+  <data name="DownloadStartingMessage" xml:space="preserve">
+    <value>جارٍ بدء التنزيل...</value>
+  </data>
+  <data name="IntroDescription" xml:space="preserve">
+    <value>تتيح لك هذه الأداة تنزيل ريلز وفيديوهات إنستغرام مجانًا ومن دون علامة مائية.</value>
+  </data>
+  <data name="ContactLink" xml:space="preserve">
+    <value>للتواصل للإعلانات</value>
+  </data>
+  <data name="InvalidLinkError" xml:space="preserve">
+    <value>رابط إنستغرام غير صالح أو أن الفيديو خاص.</value>
+  </data>
+  <data name="GeneralDownloadError" xml:space="preserve">
+    <value>حدث خطأ أثناء معالجة طلبك. يرجى المحاولة لاحقًا.</value>
+  </data>
+</root>
+
+

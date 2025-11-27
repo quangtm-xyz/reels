@@ -1,0 +1,40 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "InstaReels/1.0.0": {
+        "runtime": {
+          "InstaReels.dll": {}
+        },
+        "resources": {
+          "ar/InstaReels.resources.dll": {
+            "locale": "ar"
+          },
+          "bn/InstaReels.resources.dll": {
+            "locale": "bn"
+          },
+          "id/InstaReels.resources.dll": {
+            "locale": "id"
+          },
+          "vi/InstaReels.resources.dll": {
+            "locale": "vi"
+          },
+          "en-US/InstaReels.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InstaReels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

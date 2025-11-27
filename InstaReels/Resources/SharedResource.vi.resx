@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tải Reels &amp; Video Instagram</value>
+  </data>
+  <data name="ContactForAdvertising" xml:space="preserve">
+    <value>Liên hệ quảng cáo</value>
+  </data>
+  <data name="LanguageEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LanguageVietnamese" xml:space="preserve">
+    <value>Tiếng Việt</value>
+  </data>
+  <data name="LanguageIndonesian" xml:space="preserve">
+    <value>Bahasa Indonesia</value>
+  </data>
+  <data name="LanguageBengali" xml:space="preserve">
+    <value>বাংলা</value>
+  </data>
+  <data name="LanguageArabic" xml:space="preserve">
+    <value>العربية</value>
+  </data>
+  <data name="DownloadButton" xml:space="preserve">
+    <value>Tải xuống</value>
+  </data>
+  <data name="IntroText" xml:space="preserve">
+    <value>Đây là công cụ giúp bạn tải Reels và video từ Instagram - miễn phí và không có logo.</value>
+  </data>
+  <data name="DescriptionTitle" xml:space="preserve">
+    <value>Giới thiệu về Reels Downloader</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>Reels Downloader là công cụ mạnh mẽ, dễ sử dụng giúp bạn tải Reels và video Instagram một cách nhanh chóng. Nền tảng mang lại trải nghiệm liền mạch cho người dùng muốn lưu nội dung yêu thích để xem ngoại tuyến. Bạn có thể tải video chất lượng cao, không dính watermark và hoàn toàn miễn phí. Chỉ cần dán liên kết Reel hoặc video Instagram vào ô nhập, bấm nút tải và nội dung sẽ sẵn sàng sau vài giây. Công cụ hỗ trợ mọi loại nội dung trên Instagram gồm Reels, IGTV và bài đăng thông thường. Chúng tôi đặt ưu tiên về quyền riêng tư, xử lý an toàn và không lưu trữ thông tin cá nhân hay dữ liệu bạn tải xuống. Quy trình rất đơn giản, không cần kiến thức kỹ thuật - chỉ cần sao chép liên kết từ Instagram, dán vào đây và tải ngay lập tức. Dịch vụ hoạt động trên mọi thiết bị như máy tính, máy tính bảng và điện thoại, giúp bạn tải nội dung ở bất cứ đâu. Chúng tôi liên tục cập nhật để hỗ trợ các tính năng mới của Instagram và tương thích với mọi định dạng video.</value>
+  </data>
+  <data name="FAQTitle" xml:space="preserve">
+    <value>Câu hỏi thường gặp</value>
+  </data>
+  <data name="FAQ1Question" xml:space="preserve">
+    <value>Làm sao tải video TikTok không logo?</value>
+  </data>
+  <data name="FAQ1Answer" xml:space="preserve">
+    <value>Chỉ cần dán URL video vào công cụ tải và bấm nút tải xuống. Hệ thống sẽ tự loại bỏ watermark.</value>
+  </data>
+  <data name="FAQ2Question" xml:space="preserve">
+    <value>Làm thế nào lấy link tải TikTok?</value>
+  </data>
+  <data name="FAQ2Answer" xml:space="preserve">
+    <value>Nhấn nút chia sẻ trên TikTok để sao chép liên kết video rồi dán vào công cụ để nhận link tải trực tiếp.</value>
+  </data>
+  <data name="FAQ3Question" xml:space="preserve">
+    <value>Video tải về được lưu ở đâu?</value>
+  </data>
+  <data name="FAQ3Answer" xml:space="preserve">
+    <value>Video sẽ nằm trong thư mục tải xuống mặc định của thiết bị, hoặc thư viện ảnh nếu bạn dùng di động.</value>
+  </data>
+  <data name="FAQ4Question" xml:space="preserve">
+    <value>Công cụ có lưu video của tôi không?</value>
+  </data>
+  <data name="FAQ4Answer" xml:space="preserve">
+    <value>Không. Tất cả được xử lý theo thời gian thực và chỉ lưu lại trên thiết bị của bạn.</value>
+  </data>
+  <data name="FAQ5Question" xml:space="preserve">
+    <value>Có cần cài ứng dụng hay tiện ích mở rộng không?</value>
+  </data>
+  <data name="FAQ5Answer" xml:space="preserve">
+    <value>Không cần cài đặt bổ sung. Công cụ chạy trực tiếp ngay trên trình duyệt.</value>
+  </data>
+  <data name="FAQ6Question" xml:space="preserve">
+    <value>Dịch vụ này có mất phí không?</value>
+  </data>
+  <data name="FAQ6Answer" xml:space="preserve">
+    <value>Hoàn toàn miễn phí và không giới hạn số lần tải.</value>
+  </data>
+  <data name="FAQ7Question" xml:space="preserve">
+    <value>Có dùng được trên Android không?</value>
+  </data>
+  <data name="FAQ7Answer" xml:space="preserve">
+    <value>Có. Mở trang web bằng trình duyệt di động và sử dụng như trên máy tính.</value>
+  </data>
+  <data name="FAQ8Question" xml:space="preserve">
+    <value>Lưu video về iPhone như thế nào?</value>
+  </data>
+  <data name="FAQ8Answer" xml:space="preserve">
+    <value>Dán liên kết vào công cụ, bấm tải xuống và video sẽ xuất hiện trong ứng dụng Ảnh.</value>
+  </data>
+  <data name="FAQ9Question" xml:space="preserve">
+    <value>Có giới hạn số video tải không?</value>
+  </data>
+  <data name="FAQ9Answer" xml:space="preserve">
+    <value>Không. Bạn có thể tải bao nhiêu tùy thích, hoàn toàn miễn phí.</value>
+  </data>
+  <data name="FAQ10Question" xml:space="preserve">
+    <value>Có tải nhiều video cùng lúc được không?</value>
+  </data>
+  <data name="FAQ10Answer" xml:space="preserve">
+    <value>Hiện tại mỗi lần chỉ tải một video bằng cách dán từng liên kết riêng biệt.</value>
+  </data>
+  <data name="FAQ11Question" xml:space="preserve">
+    <value>Có tải được video chất lượng cao không?</value>
+  </data>
+  <data name="FAQ11Answer" xml:space="preserve">
+    <value>Có, chất lượng phụ thuộc vào video gốc trên nền tảng.</value>
+  </data>
+  <data name="FAQ12Question" xml:space="preserve">
+    <value>Có chỉnh sửa video sau khi tải được không?</value>
+  </data>
+  <data name="FAQ12Answer" xml:space="preserve">
+    <value>Hoàn toàn được vì file MP4 tiêu chuẩn có thể chỉnh sửa bằng mọi phần mềm.</value>
+  </data>
+  <data name="FAQ13Question" xml:space="preserve">
+    <value>Công cụ có hỗ trợ tách MP3 không?</value>
+  </data>
+  <data name="FAQ13Answer" xml:space="preserve">
+    <value>Hiện công cụ tập trung vào video. Bạn có thể dùng phần mềm khác để tách âm thanh.</value>
+  </data>
+  <data name="FooterContact" xml:space="preserve">
+    <value>Liên hệ</value>
+  </data>
+  <data name="FooterLegal" xml:space="preserve">
+    <value>Điều khoản</value>
+  </data>
+  <data name="FooterTerms" xml:space="preserve">
+    <value>Điều khoản sử dụng</value>
+  </data>
+  <data name="FooterPrivacyPolicy" xml:space="preserve">
+    <value>Chính sách bảo mật</value>
+  </data>
+  <data name="FooterTools" xml:space="preserve">
+    <value>Công cụ</value>
+  </data>
+  <data name="InputPlaceholder" xml:space="preserve">
+    <value>Dán link Instagram (Reels, Video, IGTV) vào đây...</value>
+  </data>
+  <data name="ProcessingMessage" xml:space="preserve">
+    <value>Đang xử lý link... Vui lòng chờ.</value>
+  </data>
+  <data name="DownloadStartingMessage" xml:space="preserve">
+    <value>Đang bắt đầu tải xuống...</value>
+  </data>
+  <data name="IntroDescription" xml:space="preserve">
+    <value>Đây là công cụ giúp bạn tải Reels và video từ Instagram - miễn phí và không có logo.</value>
+  </data>
+  <data name="ContactLink" xml:space="preserve">
+    <value>Liên hệ quảng cáo</value>
+  </data>
+  <data name="InvalidLinkError" xml:space="preserve">
+    <value>Liên kết Instagram không hợp lệ hoặc video đang để chế độ riêng tư.</value>
+  </data>
+  <data name="GeneralDownloadError" xml:space="preserve">
+    <value>Đã xảy ra lỗi khi xử lý yêu cầu. Vui lòng thử lại sau.</value>
+  </data>
+</root>
+
+
+
+

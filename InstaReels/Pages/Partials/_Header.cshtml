@@ -1,0 +1,22 @@
+@model IndexViewModel
+
+<nav class="w-full bg-white border-b border-gray-200">
+    <div class="w-[95%] md:w-[80%] mx-auto px-4 py-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+        <div class="flex items-center gap-2">
+            <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path>
+            </svg>
+            <span class="text-xl font-bold text-black">@Model.AppTitle</span>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <partial name="Partials/_LanguageSelector" model="Model"/>
+            <a href="#" class="px-4 py-2 text-black hover:text-blue-600 transition-colors">
+                @Model.ContactLinkText
+            </a>
+        </div>
+    </div>
+</nav>
+
+
+
